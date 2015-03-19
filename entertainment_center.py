@@ -30,4 +30,5 @@ starWars = media.Movie("Star Wars: Episode IV - A New Hope", "Luke Skywalker joi
 							 "http://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg",
 							 "https://www.youtube.com/watch?v=9gvqpFbRKtQ")
 movies = [toy_story, gotg, ferrisBueller, indianaJones, up, starWars]
+print(media.Movie.valid_ratings)
 fresh_tomatoes.open_movies_page(movies)
